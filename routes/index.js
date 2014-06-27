@@ -23,6 +23,9 @@ router.get('/', function(req, res) {
 router.get('/famous', function(req, res) {
     res.render('./famous/famous.ejs');
 });
+router.get('/spinpic', function(req, res) {
+    res.render('./famous/spinpic.ejs');
+});
 
 
 module.exports = router;

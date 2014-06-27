@@ -6,10 +6,10 @@ define(function(require, exports, module) {
     var Utility              = require('famous/utilities/Utility');
     var SequentialLayout     = require("famous/views/SequentialLayout");
 
-    var TitleBannerView      = require('alabum/views/TitleBannerView');
-    var TabBannerView        = require('alabum/views/TabBannerView');
-    var AlbumView            = require('alabum/views/AlbumView');
-    var BottomIconsView      = require('alabum/views/BottomIconsView');
+    var TitleBannerView      = require('Alabum/views/TitleBannerView');
+    var TabBannerView        = require('Alabum/views/TabBannerView');
+    var AlbumView            = require('Alabum/views/AlbumView');
+    var BottomIconsView      = require('Alabum/views/BottomIconsView');
 
     function AppView() {
         View.apply(this, arguments);

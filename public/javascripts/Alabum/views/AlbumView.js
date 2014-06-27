@@ -8,8 +8,8 @@ define(function(require, exports, module) {
     var Transitionable       = require('famous/transitions/Transitionable');
     var GenericSync          = require('famous/inputs/GenericSync');
 
-    var ScrollViewExtension  = require('alabum/views/ScrollViewExtension');
-    var RowView              = require('alabum/views/RowView');
+    var ScrollViewExtension  = require('Alabum/views/ScrollViewExtension');
+    var RowView              = require('Alabum/views/RowView');
     var ContainerSurface     = require("famous/surfaces/ContainerSurface");
 
     function AlbumView() {

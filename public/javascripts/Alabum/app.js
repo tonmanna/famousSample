@@ -2,7 +2,7 @@ define(function(require, exports, module) {
     // import dependencies
     var Engine = require('famous/core/Engine');
 
-    var AppView = require('alabum/views/AppView');
+    var AppView = require('Alabum/views/AppView');
 
     var mainCtx = Engine.createContext();
 
